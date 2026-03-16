@@ -76,7 +76,13 @@ export default function ProjectDetail() {
               transition={{ delay: i * 0.2 }}
               className="relative aspect-video rounded-3xl overflow-hidden border border-muted shadow-lg"
             >
-              <Image src={img} alt={`Gallery ${i}`} fill className="object-cover" />
+              <Image 
+                src={img} 
+                alt={`Gallery ${i}`} 
+                fill 
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-cover" 
+              />
             </motion.div>
           ))}
         </div>

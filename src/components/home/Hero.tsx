@@ -53,6 +53,7 @@ export function Hero() {
               src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800"
               alt="Developer Workspace"
               fill
+              sizes="(max-width: 768px) 100vw, 33vw"
               className="object-cover grayscale hover:grayscale-0 transition-all duration-[2000ms] ease-in-out"
               priority
             />
