@@ -31,6 +31,7 @@ export default function AboutPage() {
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800"
               alt="Profile Picture"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
             />
           </motion.div>
@@ -78,6 +79,7 @@ export default function AboutPage() {
                   src={brand.logo}
                   alt={brand.name}
                   fill
+                  sizes="(max-width: 768px) 33vw, 15vw"
                   className="object-contain"
                 />
               </div>
